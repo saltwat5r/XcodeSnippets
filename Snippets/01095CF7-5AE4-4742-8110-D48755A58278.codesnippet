@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>optionsettype_struct</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct &lt;#struct_name#&gt;: OptionSetType {
+    let rawValue: Int
+    init(rawValue: Int) { self.rawValue = rawValue }
+    
+    static let &lt;#first option#&gt; = &lt;#struct_name#&gt;(rawValue: 1)
+    static let &lt;#second option#&gt; = &lt;#struct_name#&gt;(rawValue: 2)
+    static let &lt;#third option#&gt; = &lt;#struct_name#&gt;(rawValue: 4)
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>01095CF7-5AE4-4742-8110-D48755A58278</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift - OptionSetType struct</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
